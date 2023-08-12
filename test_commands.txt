@@ -1,0 +1,2 @@
+copy /home/jaffrey/data/test_src/x.txt /home/jaffrey/data/test_dest
+copy /home/jaffrey/data/test_src/x.pdf /home/jaffrey/data/test_dest

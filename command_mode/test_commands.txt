@@ -1,0 +1,17 @@
+create_dir amitchaka /home/jaffrey/data/test_dest
+create_dir amitchaka /home/jaffrey/test_dest
+
+
+copy data/test_src/x.pdf data/test_src/lolx data/test_src/x.txt data/test_dest
+
+move data/test_src/x.pdf data/test_src/lolx data/test_src/x.txt data/test_dest
+
+rename data/test_src/x.pdf data/test_src/xlol.pdf
+
+create_file amitchaka.lmao ~/data/test_src
+
+delete_file ~/data/test_src/xl.pdf
+delete_file ~/data/test_src/xlol.pdf
+
+delete_dir ~/data/test_src/lol
+delete_dir ~/data/test_src/lolx

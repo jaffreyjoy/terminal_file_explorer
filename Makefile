@@ -1,4 +1,4 @@
-gaexplorer: gaexplorer.cpp
-	g++ gaexplorer.cpp -o gaexplorer
-	# g++ gaexplorer.cpp -o gaexplorer -Wall -Wextra -pedantic
-	./gaexplorer
+fileexplorer: fileexplorer.cpp
+	g++ fileexplorer.cpp -o fileexplorer
+	# g++ fileexplorer.cpp -o fileexplorer -Wall -Wextra -pedantic
+	./fileexplorer

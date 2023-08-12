@@ -731,6 +731,7 @@ int main() {
                         if(res) command_status = "SUCCESS!";
                         else command_status = "FAILED!";
 
+                        contents = get_dir_contents(current_dir);
                         start = 0;
                         end = _min(curr_term_h-SPACE_BELOW_LISTING, contents.size()-1);
                         print_dir_contents(contents, mode, cursor_pos
@@ -764,6 +765,7 @@ int main() {
                         if(res) command_status = "SUCCESS!";
                         else command_status = "FAILED!";
 
+                        contents = get_dir_contents(current_dir);
                         start = 0;
                         end = _min(curr_term_h-SPACE_BELOW_LISTING, contents.size()-1);
                         print_dir_contents(contents, mode, cursor_pos
@@ -781,6 +783,7 @@ int main() {
                         if(status) command_status = "SUCCESS!";
                         else command_status = "FAILED!";
 
+                        contents = get_dir_contents(current_dir);
                         start = 0;
                         end = _min(curr_term_h-SPACE_BELOW_LISTING, contents.size()-1);
                         print_dir_contents(contents, mode, cursor_pos
@@ -798,6 +801,7 @@ int main() {
                         if(status) command_status = "SUCCESS!";
                         else command_status = "FAILED!";
 
+                        contents = get_dir_contents(current_dir);
                         start = 0;
                         end = _min(curr_term_h-SPACE_BELOW_LISTING, contents.size()-1);
                         print_dir_contents(contents, mode, cursor_pos
@@ -816,6 +820,7 @@ int main() {
                         if(status) command_status = "SUCCESS!";
                         else command_status = "FAILED!";
 
+                        contents = get_dir_contents(current_dir);
                         start = 0;
                         end = _min(curr_term_h-SPACE_BELOW_LISTING, contents.size()-1);
                         print_dir_contents(contents, mode, cursor_pos
@@ -831,6 +836,7 @@ int main() {
                         if(status) command_status = "SUCCESS!";
                         else command_status = "FAILED!";
 
+                        contents = get_dir_contents(current_dir);
                         start = 0;
                         end = _min(curr_term_h-SPACE_BELOW_LISTING, contents.size()-1);
                         print_dir_contents(contents, mode, cursor_pos
@@ -846,6 +852,7 @@ int main() {
                         if(status) command_status = "SUCCESS!";
                         else command_status = "FAILED!";
 
+                        contents = get_dir_contents(current_dir);
                         start = 0;
                         end = _min(curr_term_h-SPACE_BELOW_LISTING, contents.size()-1);
                         print_dir_contents(contents, mode, cursor_pos
